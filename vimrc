@@ -67,6 +67,10 @@ set shiftwidth=2
 set shiftround
 set expandtab
 
+" Cursors
+set cursorline
+set cursorcolumn
+
 " Display extra whitespace
 set list listchars=tab:»·,trail:·,nbsp:·
 
@@ -83,9 +87,10 @@ if executable('ag')
 endif
 
 " Color scheme
-colorscheme github
+colorscheme molokai
 highlight NonText guibg=#060606
 highlight Folded  guibg=#0A0A0A guifg=#9090D0
+
 
 " Make it obvious where 80 characters is
 set textwidth=80

@@ -29,3 +29,6 @@
   prune = true
 [include]
   path = ~/.gitconfig.local
+[user]
+	name = Michelle Venetucci Harvey
+	email = michelle.ann.harvey@gmail.com

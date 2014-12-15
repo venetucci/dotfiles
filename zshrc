@@ -98,3 +98,6 @@ _load_settings "$HOME/.zsh/configs"
 
 # Local config
 [[ -f ~/.zshrc.local ]] && source ~/.zshrc.local
+
+# Michelle's aliases
+alias hug="git merge" 
