@@ -4,6 +4,11 @@ thoughtbot dotfiles
 Requirements
 ------------
 
+1. Download [iTerm2](https://www.iterm2.com)
+1. Download zsh: `sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"`
+1. Download iterm theme: `git clone git@github.com:venetucci/base16-shell.git ~/.config/base16-shell`
+
+
 Set zsh as your login shell:
 
     chsh -s $(which zsh)
@@ -13,7 +18,7 @@ Install
 
 Clone onto your laptop:
 
-    git clone git://github.com/thoughtbot/dotfiles.git
+    git clone git://github.com/venetucci/dotfiles.git ~/dotfiles
 
 (Or, [fork and keep your fork
 updated](http://robots.thoughtbot.com/keeping-a-github-fork-updated)).
