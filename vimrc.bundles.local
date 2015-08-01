@@ -1,0 +1,5 @@
+" Add navigation tree
+Plug 'scrooloose/nerdtree'
+
+" Add color scheme
+Plug 'chriskempson/base16-vim'
